@@ -11,8 +11,7 @@ const { addToCart, getCart, removeFromCart, updateCartItem } = require("../contr
 const cartRoutes = express.Router();
 
 cartRoutes.post("/add", authMiddleware, addToCart);
-cartRoutes.get("/all", getCart);
-// cartRoutes.get("/all", authMiddleware, getCart);
+cartRoutes.get("/all", authMiddleware, getCart);
 cartRoutes.delete("/:productId", authMiddleware, removeFromCart);
 cartRoutes.put("/:productId", authMiddleware, updateCartItem);
 
