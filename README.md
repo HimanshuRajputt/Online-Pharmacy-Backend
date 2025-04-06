@@ -56,7 +56,7 @@ A robust Node.js backend API for an online pharmacy application that handles pro
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/online-pharmacy-backend.git](https://github.com/HimanshuRajputt/Online-Pharmacy-Backend)
+   git clone (https://github.com/HimanshuRajputt/Online-Pharmacy-Backend)
    cd online-pharmacy-backend
    ```
 
