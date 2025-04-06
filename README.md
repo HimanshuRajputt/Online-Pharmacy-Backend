@@ -50,7 +50,7 @@ A robust Node.js backend API for an online pharmacy application that handles pro
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
 - **Payment Processing**: Razorpay
-- **Image Storage**: Local storage with Multer
+- **Image Storage**:  Multer
 
 ## 🚀 Installation
 
