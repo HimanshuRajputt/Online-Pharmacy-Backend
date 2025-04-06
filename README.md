@@ -56,7 +56,7 @@ A robust Node.js backend API for an online pharmacy application that handles pro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/online-pharmacy-backend.git
+   git clone [https://github.com/yourusername/online-pharmacy-backend.git](https://github.com/HimanshuRajputt/Online-Pharmacy-Backend)
    cd online-pharmacy-backend
    ```
 
@@ -93,8 +93,8 @@ NODE_ENV=development
 ## 📡 API Endpoints
 
 ### Authentication
-- `POST /auth/register` - Register a new user
-- `POST /auth/login` - Login and get token
+- `POST /register` - Register a new user
+- `POST /login` - Login and get token
 
 ### Products
 - `GET /products` - Get all products
@@ -141,7 +141,7 @@ The API uses JWT (JSON Web Tokens) for authentication. To access protected route
 ## 🌐 Deployment
 
 The API is currently deployed on Render:
-- Base URL: `https://online-pharmacy-backend.onrender.com`
+- Base URL: `https://onlin-pharmacy-backend.onrender.com`
 
 ## 📄 License
 
